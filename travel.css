@@ -1,0 +1,691 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-section {
+    width: 100%;
+    height: 100vh;
+    /* padding: 19px 30px; */
+    background-image: url(tourism-nature-landscape-travel.jpg);
+    /* background: #1c241e; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 2px red solid; */
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.7;
+    background: rgba(114, 129, 119, 0.6);
+    z-index: -1;
+}
+
+.hedar {
+    width: 100%;
+    height: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 40px 30px 40px;
+    /* border: 2px rgb(20, 19, 19) solid; */
+    position: absolute;
+    z-index: 9999;
+    color:#011823;
+    font-weight: 600;
+
+
+}
+
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(8, 77, 133);   
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 300px;
+    cursor: pointer;
+
+}
+.list :hover {
+    color: rgb(168, 89, 65);
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+
+.center {
+    width: 100%;
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-right: 140px; */
+    /* border: 2px rgb(51, 15, 124) solid; */
+
+}
+
+.right {
+    display: flex;
+    gap: 30px;
+    /* border: 2px rgb(18, 173, 82) solid; */
+
+}
+
+.ri-account-circle-line {
+    font-size: 20px;
+    font-weight: 150;
+}
+
+.section-1 {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    
+    
+
+
+}
+
+.follow {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 70px;
+
+}
+
+.follow-us {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #011823;
+    transform: translateY(-50%);
+    /* border: #b3afaf 2px  solid; */
+    margin-bottom: -20px;
+    
+}
+
+.icoe {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    font-size: 20px;
+    padding-top: 2px;
+    color: #011823;
+    cursor: pointer;
+
+}
+
+.center-text {
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid  rgb(206, 211, 216) ; */
+    gap: 10px;
+    margin-top: 70px;
+    padding-left: 120px;
+    
+
+}
+
+.center-text h6 {
+    font-size: 14px;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    font-weight: 550;
+    font-style: italic;
+    color:rgb(103, 61, 61);
+
+
+}
+
+.center-text h1 {
+    font-size: 45px;
+    color: #011823;
+}
+
+.Know {
+    padding: 15px 40px 15px 40px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+    color: #011823;
+    background-color: rgb(165, 216, 232);
+    border-radius: 9px;
+    border: rgb(232, 229, 165) 1px solid;
+    cursor: pointer;
+
+}
+
+.section-2 {
+    width: 100%;
+    height: 89vh;
+    background: #011823;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* gap: 50px; */
+}
+
+.content {
+    width: 45%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* border: 2px red solid; */
+    padding-left: 90px;
+    justify-content: center;
+
+
+}
+
+.content h6 {
+    font-size: 18px;
+    font-weight: 450;
+    font-family: monospace;
+    color: bisque;
+}
+
+.content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 20px;
+
+}
+
+.content p {
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: silver;
+}
+
+.ri-arrow-right-line {
+    width: 40px;
+    height: 40px;
+    /* font-weight: 400; */
+    /* border: 2px red solid; */
+    align-items: center;
+
+}
+
+.images {
+    width: 49%;
+    height: 70vh;
+    /* border: 2px rgb(237, 232, 232) solid; */
+    justify-content: center;
+    margin-top: 20PX;
+
+}
+
+.images img {
+    width: 619px;
+    height: 350px;
+    border-radius: 200px 0px 0px 200px;
+    box-shadow: 0 0 20px #455252;
+
+}
+
+.section-3 {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    background: #011823;
+    color: whitesmoke;
+    /* padding-top: 60px; */
+    justify-content: space-between;
+    /* background: #300a0a; */
+}
+
+.images-1 {
+    width: 49%;
+    height: 80vh;
+    /* border: 2px rgb(222, 51, 51) solid; */
+    justify-content: center;
+
+
+}
+
+.images-1 img {
+    width: 619px;
+    height: 350px;
+    border-radius: 0px 200px 200px 0px;
+    box-shadow: 0 0 20px #8ba1a1;
+}
+
+.travel-map {
+    width: 45%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    /* border: 2px red solid; */
+    padding-right: 90px;
+    justify-content: center;
+
+
+
+}
+
+.travel-map h6 {
+    font-size: 18px;
+    font-weight: 350;
+    font-family: monospace;
+    color: bisque;
+}
+
+.travel-map h2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 20px;
+    word-spacing: 10px;
+
+}
+
+.travel-map p {
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: silver;
+}
+
+.ri-arrow-right-line {
+    width: 40px;
+    height: 40px;
+    /* font-weight: 400; */
+    /* border: 2px red solid; */
+    align-items: center;
+
+}
+
+.section-4 {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    background: #011823;
+    color: whitesmoke;
+    /* padding-top: 60px; */
+    justify-content: space-between;
+    /* background: #dfd2d2; */
+}
+
+.transport {
+    width: 45%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* border: 2px red solid; */
+    padding-left: 90px;
+    justify-content: center;
+}
+
+.transport h6 {
+    font-size: 18px;
+    font-weight: 450;
+    font-family: monospace;
+    color: bisque;
+}
+
+.transport h1 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 20px;
+
+}
+
+.transport p {
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: silver;
+}
+
+.ri-arrow-right-line {
+    width: 40px;
+    height: 40px;
+    /* font-weight: 400; */
+    /* border: 2px red solid; */
+    align-items: center;
+
+}
+
+.images-2 {
+    width: 49%;
+    height: 70vh;
+    /* border: 2px rgb(237, 232, 232) solid; */
+    justify-content: center;
+    margin-top: 20PX;
+
+}
+
+.images-2 img {
+    width: 619px;
+    height: 350px;
+    border-radius: 200px 0px 0px 200px;
+    box-shadow: 0 0 20px #404c4c;
+
+}
+
+.section-5 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #011823;
+    color: whitesmoke;
+    /* gap: 90px; */
+    padding: 110px;
+}
+
+.let-go {
+    width: 40%;
+    height: 50vh;
+    /* border: 2px solid rgb(43, 203, 34); */
+    word-spacing: 10px;
+    margin-left: 90px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Go {
+    padding: 15px 86px 15px 86px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 9px;
+    background: rgb(235, 183, 104);
+    border: 2px solid rgb(235, 183, 104);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(235, 183, 104);
+}
+
+.para {
+    width: 50%;
+    height: 50vh;
+    /* border: 2px solid rgb(148, 31, 86); */
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: silver;
+    margin-top: 2px;
+    margin-right: 20px;
+}
+
+.section-6 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 10px;
+    /* padding: 20px; */
+    background: #011823;
+}
+
+.card {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s ease;
+}
+
+.card-title {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(224, 209, 209, 0.7);
+    color: whitesmoke;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card:hover img {
+    transform: scale(1.2);
+}
+
+.section-7 {
+    width: 100%;
+    height: 90vh;
+    background-color: #011823;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    gap: 40px;
+    /* border: 2px solid red; */
+    padding: 0px  90px 0px 90px;
+    font-family: 'Arial', sans-serif;
+}
+
+ h1 {
+    font-size: 2em;
+    /* margin-bottom: 30px; */
+
+}
+
+p {
+    width: 80%;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: silver;
+    /* justify-content: center;
+    align-items: center; */
+    /* margin-bottom: 40px; */
+   
+}
+.center-content{
+    height: 60%;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   /* gap: 40px; */
+   /* border: 2px solid red; */
+}
+.stat-item{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid navajowhite; */
+    align-items: center;
+    justify-content: center;
+    /* padding: 40px;   */
+    /* width: 39%; */
+   /* gap: 15px; */
+}
+.center-content i{
+    color: burlywood;
+    font-size: 50px;
+    /* font-weight: 200; */
+  
+  
+
+}
+h2 {
+    color: burlywood;
+    font-size: 2em;
+    font-weight: 540;
+    margin: 10px 0;
+   
+}
+
+h3 {
+    font-family: serif;
+    font-size: 1.2em;
+    margin: 10px 0;
+   
+}
+
+p { display: flex;
+    font-size: 1em;
+    color: #ccc;
+    /* align-items: right;
+    justify-content: center; */
+}
+.section-8{
+    display: flex;
+    width: 100%;
+    height: 48vh;
+    position: relative;
+    background: url('the-sun-mountains-balloons-field-wallpaper-preview.jpg') ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    /* border: 1px solid rgb(173, 154, 154); */
+    
+}
+.see-the-tours{
+    position: absolute;
+    transform: translate(-0.0px, -0.0%);
+    background: rgba(158, 151, 94, 0.5);
+    padding: 30px;
+    border-radius: 10px;  
+    gap: 20px;
+  
+    /* border: 1px solid red; */
+}
+ 
+.see-the-tours p{
+    
+   margin-left: 85px;
+  font-size: 15px;
+    color: #ccc;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.btn{
+    padding: 15px 80px 15px 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    background:rgb(232, 191, 79);
+    border: 2px solid rgb(232, 191, 79);
+    cursor: pointer;
+    /* box-shadow: 0 0 3px rgb(190, 164, 126); */
+}
+.footer {
+ background-color: #011823;
+    color: #ccc;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-column h2 {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.footer-column h2 span {
+    color: #3498db;
+}
+
+.footer-column h3 {
+    color: burlywood;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #ccc;
+   text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #ffffff;
+}
+
+.footer-column p {
+    margin: 5px 0;
+}
+.social-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 17px;
+    padding: 15px;
+    
+    /* background-color: #ccc; */
+}
+.icom{
+    display: flex;  
+    flex-direction: row;
+
+  
+
+}
+
+
